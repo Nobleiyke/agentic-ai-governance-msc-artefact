@@ -39,8 +39,15 @@ This repo currently includes working files at the top level. For a cleaner “pu
 ## Reproducibility (high level)
 
 - **Quantitative pipeline**
-  - Run `analysis_agentic_arc.py` from the repo root; outputs are written to `outputs/` using deterministic filenames referenced in the dissertation.
+  - Run from the repo root:
+
+    ```bash
+    python analysis_agentic_arc.py
+    ```
+
+  - Outputs are written to `outputs/` using deterministic filenames referenced in the dissertation.
+  - What is excluded (and why): `docs/PUBLIC_VS_PRIVATE.md`
 - **CVE-Bench**
   - Follow upstream instructions in `cve-bench-main/README.md`.
   - Windows command blocks used in this project are consolidated in `CVE_BENCH_LATEST_SCRIPT.md` / `CVE_BENCH_TEST_SCRIPT_WITH_RESULTS.md`.
-
+    
