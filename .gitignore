@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.gdoc
+
+# Office / temp files
+~$*.doc
+~$*.docx
+~$*.ppt
+~$*.pptx
+~$*.xls
+~$*.xlsx
+
+# ---- Publication hygiene (safe-to-share repo) ----
+# Keep source artefacts (MD/TXT/CSV/JSON) trackable,
+# but exclude heavy renderings / office exports by default.
+
+# Dissertation / report exports (keep the Markdown sources)
+outputs/**/*.doc
+outputs/**/*.docx
+outputs/**/*.pdf
+outputs/**/*.html
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.jpeg
+outputs/**/*.webp
+
+# Top-level rendered exports / screenshots
+CVE_BENCH_*.pdf
+CVE_BENCH_*.html
+CVE_BENCH_*.png
+CVE_BENCH_*.jpg
+CVE_BENCH_*.jpeg
+CVE_BENCH_*.doc
+CVE_BENCH_*.docx
+
+# Specific top-level Office exports
+CVE_BENCH_TEST_SCRIPT_WITH_RESULTS.doc
+
+# Large or private datasets (publish only derived tables/summaries as needed)
+Dataset/
+
+# NVivo export renderings (keep `.md` + `.csv`, ignore heavy formats)
+nvivo/
+nvivo/**/*.pdf
+nvivo/**/*.html
+nvivo/**/*.png
+nvivo/**/*.jpg
+nvivo/**/*.jpeg
+nvivo/**/*.webp
+
+# Draft/dissertation working exports inside vendored folder (keep upstream code clean)
+cve-bench-main/Report_Sections_*.doc
+cve-bench-main/Report_Sections_*.docx
+cve-bench-main/Report_Sections_*.html
+
+# Secrets (defence in depth)
+.env
+**/.env
+

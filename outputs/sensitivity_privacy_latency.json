@@ -1,0 +1,9 @@
+{
+  "name": "Sensitivity: privacy_compliance_score vs response_latency_ms (log)",
+  "n": 5000,
+  "details": {
+    "coef_privacy": -0.1887192085748482,
+    "p_privacy": 0.21201690915442944,
+    "r2": 0.002871787294247863
+  }
+}

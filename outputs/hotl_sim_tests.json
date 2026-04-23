@@ -1,0 +1,35 @@
+{
+  "name": "HOTL circuit-breaker simulation (triggered subset)",
+  "n": 1693,
+  "details": {
+    "trigger_rate": 0.3386,
+    "estimated_uplift": {
+      "accuracy": -0.012341345588998817,
+      "success": -0.038770808640054215
+    },
+    "paired_t_accuracy": {
+      "t": -2.926391571938003e+17,
+      "p": 0.0
+    },
+    "wilcoxon_accuracy_greater": {
+      "stat": 0.0,
+      "p": 1.0
+    },
+    "paired_t_success": {
+      "t": -Infinity,
+      "p": 0.0
+    },
+    "wilcoxon_success_greater": {
+      "stat": 0.0,
+      "p": 1.0
+    },
+    "before_means": {
+      "accuracy": 0.44774571766095694,
+      "success": 0.33601169521559354
+    },
+    "after_means": {
+      "accuracy": 0.43540437207195803,
+      "success": 0.29724088657553943
+    }
+  }
+}

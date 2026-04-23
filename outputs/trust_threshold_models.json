@@ -1,0 +1,15 @@
+{
+  "n": 5000,
+  "features": [
+    "accuracy_score",
+    "error_recovery_rate",
+    "autonomy_level",
+    "task_complexity",
+    "privacy_compliance_score",
+    "response_latency_ms",
+    "performance_index"
+  ],
+  "tree_depth": 3,
+  "top_rules_saved": "outputs/tree_threshold_rules.json",
+  "rf_importance_saved": "outputs/rf_feature_importance.csv"
+}

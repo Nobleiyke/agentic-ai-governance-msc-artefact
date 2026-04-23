@@ -1,0 +1,16 @@
+{
+  "features": [
+    "performance_index",
+    "autonomous_capability_score",
+    "accuracy_score"
+  ],
+  "silhouette_by_k": {
+    "2": 0.4284286770307215,
+    "3": 0.39519386463497974,
+    "4": 0.3564114396347352,
+    "5": 0.38432475594385557,
+    "6": 0.3609213897617901
+  },
+  "best_k": 2,
+  "best_silhouette": 0.4284286770307215
+}

@@ -1,0 +1,131 @@
+University of the West of Scotland
+School of Computing, Engineering and Physical Sciences
+MSc Masters Project Specification
+Student’s Name: IKECHUKWU ANYA UDE
+Banner id: B01798185
+MSc Programme (specify the specialist pathway, if any): IT Project Management
+MSc Programme Leader: Graeme McRobbie
+Project Title (5 Marks)
+Governance Boundaries for Agentic AI in Project Management: A Framework for Risk Mitigation and Strategic Alignment
+Abstract
+(Project overview reflecting the larger scope of the project.) (10 Marks)
+The integration of autonomous artificial intelligence into project management introduces self-initiating systems capable of multi-step decision-making and independent environmental interaction. While these technologies significantly enhance operational efficiency, their autonomy creates a critical governance gap, allowing systems to deviate from organizational goals and leading to unmitigated operational risks, unauthorized capability escalation, and the loss of human oversight. The purpose of this research is to design and evaluate a dynamic boundary control framework that defines the strict operational and ethical limits of these autonomous systems within enterprise environments. To construct this framework, the study synthesizes principles of proactive governance by design, capability-based risk assessments, and verifiable cryptographic identity models. The methodology uses a Design Science Research approach, analyzing secondary data from established global incident databases to map real-world system failure modes. Furthermore, the proposed technical controls are evaluated against standardized security benchmarks designed specifically to test autonomous system vulnerabilities and external tool misuse. By mapping specific cognitive and operational system capabilities to tailored technical controls, the research develops a governance model that establishes critical trust thresholds. This approach systematically transitions human involvement from continuous manual validation to strategic, exception-based supervision, where systems automatically halt and escalate highly sensitive decisions to human managers. Ultimately, this research delivers an adaptable operational toolkit that proactively mitigates emergent risks, ensuring that autonomous project workflows remain securely bound, transparent, and strictly aligned with human-led strategic objectives.
+Justification and overall Aim (10 Marks)
+(Rationale for the research showing gaps in the current knowledge and general statements on intent and direction of the project*)
+The rationale for this project lies in the rapid evolution of Artificial Intelligence (AI) within IT Project Management. The transition from passive, generative AI to Agentic AI marks a fundamental inflection point. Agentic systems are not merely tools; they possess the autonomy to analyze problems, plan multi-step strategies, execute API calls, and self-correct. Gartner predicts that the future of enterprise work will shift heavily toward these agentive experiences, reshaping business operations significantly by 2026.
+However, this autonomy introduces severe, novel risk vectors such as emergent multi-agent behavior, tool misuse, and permission boundary violations. Existing cybersecurity frameworks often struggle with these unique properties, creating an "autonomy gap" where agents operate outside of traditional oversight. Furthermore, traditional Human-in-the-Loop (HITL) oversight mechanisms, which rely on manual validation of individual outputs, do not scale at machine speed and effectively downgrade these advanced systems back to basic tools. Alternatively, deploying agents without cryptographic accountability invites critical vulnerabilities, such as command injection or unauthorized execution of business transactions.
+This research is necessary to bridge the gap between high-level AI ethics and operational project management security by embedding governance directly into the agent lifecycle, a concept known as AI Governance by Design (AIGD).
+The overall aim of this project is to design, formalize, and validate a dynamic Boundary Control Framework for Agentic AI in IT Project Management. By integrating capability-centric risk frameworks with verifiable cryptographic accountability, the framework will provide organizations with a proactive mechanism to govern autonomous workflows, ensuring they remain transparent, secure, and strategically aligned.
+Objectives (10 Marks)
+(List of tasks to be undertaken to achieve overall aim of the project* and to answer the research question posed)
+To map and classify the capabilities and emergent risks of project management agents using capability-centric models to establish a comprehensive Risk Register of failure modes.
+To integrate verifiable cryptographic accountability by theoretically modelling how an agent’s execution can be bound to its authorized human project manager to prevent unauthorized privilege escalation.
+To formulate dynamic, adaptive governance boundaries based on "critical trust thresholds" that dictate when an agent's autonomy must be constrained.
+To design an exception-based Human-on-the-Loop (HOTL) architecture, transitioning oversight from constant manual validation to strategic exception handling via automated circuit breakers.
+To validate the framework against simulated agentic failure data using standardized agent vulnerability benchmarks.
+Research Question
+What are the distinct capabilities of Agentic AI in project management, and what novel failure modes do they introduce?
+How can cryptographic architectures, such as zero-knowledge virtual machines, be integrated to ensure verifiable human accountability over autonomous agents?
+What are the defining criteria and "critical trust thresholds" required to transition project management oversight from continuous manual validation to an exception-based Human-on-the-Loop (HOTL) model?
+To what extent does the proposed framework successfully mitigate emergent harmful behaviors when evaluated against simulated IT project scenarios and standardized agent vulnerability benchmarks?
+Review of Literature (20 Marks)
+(An account of the current thinking/published information in the specific area of project*)
+The academic and industrial landscape surrounding AI in IT Project Management is currently shifting from the governance of static machine learning models to the oversight of highly autonomous systems.
+The Evolution of Agentic AI in Project Management: The Project Management Institute (PMI) highlights that AI has transformed traditional workflows by automating documentation and optimizing resources through platforms like PMI Infinity. However, agentic AI represents a distinct leap. Unlike traditional AI, agentic systems pursue independent goals, exhibiting continuous learning and the capacity to orchestrate heterogeneous tools and data sources.
+The "Autonomy Gap" and Emergent Risks: The literature identifies a critical tension: the capacity for autonomous action introduces novel security and safety risks. The Agentic Risk & Capability (ARC) Framework argues that risks must be analyzed through the lens of an agent's specific capabilities, such as file management, code execution, or internet interaction. Without strict boundaries, agents can fall victim to prompt injection via malicious websites, tool poisoning, or unintended overwriting of project data. Furthermore, Zenity (2026) highlights a massive "governance blind spot," noting that leading standards like the NIST AI RMF and ISO 42001 currently lack explicit operational guidance for agentic AI.
+Adaptive Governance and AI Governance by Design (AIGD): Static governance checklists are insufficient for systems making real-time, dynamic decisions. Joshi (2025) advocates for AI Governance by Design (AIGD), which proactively integrates ethical and legal considerations into the system from inception rather than treating them as afterthoughts. Modern enterprise frameworks, such as the AIGN Agentic AI Governance Framework, emphasize "adaptive governance" anchored in critical trust thresholds and a 5-stage maturity model. As an agent's context or task sensitivity shifts, its degree of autonomy and the required oversight must automatically adjust.
+Cryptographic Accountability: The BAID Model: A distinct gap in early agentic systems is the lack of traceable responsibility chains. Traditional key-based authentication proves who holds a key, but does not guarantee what code is executing, leaving systems vulnerable to code substitution. The Binding Agent ID (BAID) model utilizes Zero-Knowledge Virtual Machines (zkVM) to bridge this gap. By linking an operator's biometric identity to the agent's program commitment (the code itself), BAID provides cryptographic proof that the correct agent is operated by the authorized user, ensuring execution without privilege escalation.
+The Evolution of Human Oversight (HITL to HOTL): Traditional Human-in-the-Loop (HITL) models fail to scale at machine speed and effectively negate the efficiency of agentic AI. The literature suggests a necessary transition to Human-on-the-Loop (HOTL) and exception-based handling. In this paradigm, humans act as governance architects defining policy boundaries and relying on automated alerts, intervening only when an agent breaches ethical, safety, or strategic thresholds.
+Methodology(25 Marks)
+(Explanation and justification of approach and methodology proposed for the project*. This section should explain the nature of the data and method of data collection. Identification and brief discussion of any analytical tools to be used; Identification of any ethical and practical issues.)
+This research employs a mixed-methods Design Science Research (DSR) methodology to construct, operationalize, and validate the Boundary Control Framework. DSR is highly appropriate for this study as it focuses on the creation of an innovative artifact to solve a complex organizational problem while generating theoretical insights.
+Data Collection and Qualitative Analysis using NVivo: To process the unstructured secondary data, this study will utilize NVivo qualitative data analysis software. The dataset will comprise textual incident post-mortems from the AIGN Trust Registry, real-world failure case studies, and exploit narratives from standardized security benchmarks such as AgentSecurityBench and CVE-Bench.
+Within NVivo, the analysis will employ a deductive coding strategy directly structured around the Agentic Risk & Capability (ARC) Framework. The NVivo codebook will be established with the following parent and child nodes:
+Capabilities: Cognitive (e.g., planning, goal management), Interaction (e.g., tool use, web search), and Operational (e.g., file management, code execution).
+Root Causes/Failure Modes: Agentic system failure, external manipulation (e.g., prompt injection), and tool or resource malfunction.
+Hazards/Impacts: Security, data privacy, application integrity, and infrastructure disruption.
+As incident reports and benchmark logs are analyzed, text excerpts will be tagged across these nodes. Subsequently, NVivo’s Matrix Coding Queries will be utilized to cross-reference Capabilities against Root Causes and Impacts. This computational qualitative analysis will automatically highlight the highest-density vulnerability intersections, which will directly populate the foundational Risk Register required for the framework's design.
+System Development and Framework Modeling: Following the NVivo data analysis, the development of the Boundary Control Framework will follow a structured, three-layered architectural approach:
+Risk and Capability Mapping: Utilizing the outputs of the NVivo Matrix Queries, the study will formalize the centralized Risk Register, definitively mapping specific project management agent capabilities to their corresponding failure modes (e.g., unauthorized business transactions, sensitive data exposure).
+Cryptographic Accountability Architecture: Addressing the semantic gap in agent identity, the framework will conceptually model a binding layer based on the BAID zero-knowledge virtual machine (zkVM) protocol. The study will map how Verifiable Credentials and zero-knowledge virtual machine execution traces can cryptographically anchor an agent's actions to the authorized Project Manager's identity, ensuring strict adherence to the principle of least privilege without revealing sensitive operational details.
+Adaptive Oversight Design: The final design step establishes dynamic boundaries based on "critical trust thresholds". We will construct escalation protocols and define automated circuit breakers that automatically transition the system from autonomous execution to exception-based Human-on-the-Loop (HOTL) oversight when risk parameters are breached or ethical ambiguity encountered.
+Experimentation and Validation: To justify the chosen methods rigorously, the completed Boundary Control Framework will be evaluated using scenario-based testing and benchmark analysis.
+Scenario Simulations: The study will define stylized IT project management scenarios (e.g., an agent autonomously reallocating budget resources or querying internal databases). The study will cross-reference these scenarios against the NVivo-derived Risk Register to test if the prescribed technical controls theoretically neutralize the threat.
+Adversarial Benchmark Analysis: Utilizing public execution logs and attack vectors from established security benchmarks, we will theoretically simulate adversarial prompt injections and tool-misuse vectors against the proposed framework's logic to validate the efficacy of the automated circuit breakers.
+Ethical, Practical, and Security Considerations: The framework is designed in alignment with "Compliance by Design," utilizing privacy-preserving technologies like zero-knowledge proofs to ensure that sensitive organizational data remains secure during agent authentication. A key practical limitation is the inability to test the cryptographic architecture on live, proprietary enterprise networks due to corporate security restrictions; therefore, the methodology relies on conceptual architectural modeling and publicly available adversarial benchmarks to validate the theoretical controls.
+Work Plan (10 Marks)
+(A timetable for completion of the project*. MSc Masters Project full-time is allowed 15 weeks and part-time is 30 weeks. You may use any appropriate method to present the Ill-thought-through plan of action reflecting your project* activities)
+Weeks 1–5: Submit initial proposal and await supervisor allocation.
+Weeks 6–7 (current): Supervisor allocated. Refine and narrow the topic based on feedback. Finalize aim, research questions, and objectives.
+Weeks 8–9: Foundation & Data Gathering
+Weeks 10–11: Framework Design and Qualitative Analysis
+Weeks 12–13: Simulation & Validation
+Weeks 14–15: Write up and finalize (literature, methodology, findings, discussion, and conclusion). Edit, reference, proofread, and submit.
+References
+(Correctly presented in Cite Them Right Harvard style)(10 Marks)
+AIGN (2025) AIGN Agentic AI Governance Framework 1.0. Artificial Intelligence Governance Network. Available at: www.aign.global
+Digital Divide Data (2025) Agentic AI and Its Impact on Human-in-the-Loop Systems White Paper. Available at: www.digitaldividedata.com
+Gartner (2025) Strategic Predictions for 2026: How AI's Underestimated Influence Is Reshaping Business. Available at: https://www.gartner.com
+Joshi, H. (2025) 'AI Governance by Design for Agentic Systems: A Framework for Responsible Development and Deployment', Preprints.org, doi: 10.20944/preprints202504.1707.v1.
+Khoo, S., Foo, J. and Lee, R. K.-W. (2025). 'With Great Capabilities Come Great Responsibilities: Introducing the Agentic Risk & Capability Framework for Governing Agentic AI Systems', arXiv preprint, arXiv:2502.12345.
+Lin, Z., Zhang, S., Liao, G., Tao, D. and Wang, T. (2025). 'Binding Agent ID: Unleashing the Power of AI Agents with accountability and credibility', arXiv preprint, arXiv:2503.01234.
+London Borough of Hammersmith & Fulham (2025). Update on AI Governance and Adoption. Policy and Oversight Board Report.
+Maas, M. M. (2020). Artificial Intelligence Governance under Change: Foundations, Facets, Frameworks. PhD thesis. University of Copenhagen. (Included as foundational context for international AI architectures).
+Project Management Institute Southern Caribbean Chapter (2025). AI in Project Management 2025: Complete Implementation Guide for Project Managers. https://pmiscc.org/blog/ai-in-project-management-2025-complete-implementation-guide-for-project-managers-23135
+Zenity (2026) Governing Agentic AI: A Practical Enterprise Framework. Available at: https://zenity.io/blog/security/governing-agentic-ai
+*Individual contribution for group project
+Marking scheme
+(Marking scheme for final report/dissertation. Note: For group project, each student in a team must submit their own sections for- Presentation of results, Conclusions and Critical Self-Evaluation)
+Introduction
+5
+Literature Review
+15
+Research Design
+15
+Implementation
+25
+Testing
+10
+Presentation of Results
+10
+Conclusions
+10
+Critical Self-Evaluation
+10
+Total
+100
+Supervisor
+Beba Dusanovic
+Moderator
+Muhammed Tufail Khan
+Programme Leader
+Graeme McRobbie
+Date specification submitted
+05/03/2026
+Please complete the ‘ethics’ & pathway confirmation form below for all projects.
+School of Computing, Engineering and Physical Sciences
+MSc Masters PROJECT – REQUIREMENT FOR ETHICAL APPROVAL & PATHWAY CONFIRMATION
+SECTION 1: TO BE COMPLETED BY THE STUDENT(S)
+Does your proposed research involve: research with human subjects (including requirements gathering and product/software testing), access to company documents/records, questionnaires, surveys, focus groups and/or other interview techniques? Does your research entail any process which requires ethical approval? (please enter √ in the appropriate box)
+YES
+You must submit an application for approval to the Ethics Review Manager
+NO
+√
+You do not need to submit an application to the Ethics Review Manager
+√ √ I confirm that the above project specification aligns with my MSc programme specialist pathway. (please enter √ in the box)
+√
+√
+Name of student (print name): IKECHUKWU ANYA UDE
+Signature:
+SECTION 2: TO BE COMPLETED BY THE PROJECT SUPERVISOR
+I understand that the above project requires/does not require* ethical approval (*please delete as appropriate).
+XXI confirm that the above project aligns with the MSc programme specialist pathway the
+X
+X
+Student(s) is (are) enrolled in. (please enter √ in the box)
+Supervisor (print name):  Beba Dusanovic
+Signature: Beba Dusanovic
+Date: 5/3/26
+IMPORTANT: please note that by signing this form all signatories are confirming that any potential ethical issues have been considered and, where necessary, an application for ethical approval has been/will be made via the Ethical Review Manager software.
+Any project requiring ethical approval but which has not been given approval will not be accepted for marking.
+Ethical approval cannot be sought in retrospect.

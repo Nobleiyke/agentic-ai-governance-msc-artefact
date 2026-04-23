@@ -1,0 +1,13 @@
+{
+  "name": "Welch t-test: performance_index by intervention_required",
+  "n": 5000,
+  "details": {
+    "mean_no_intervention": 0.768019719934102,
+    "mean_requires_intervention": 0.5141285249260187,
+    "t": 100.79450950126687,
+    "p": 0.0,
+    "cohens_d_approx": 2.4550462782616065,
+    "n_no_intervention": 607,
+    "n_requires_intervention": 4393
+  }
+}

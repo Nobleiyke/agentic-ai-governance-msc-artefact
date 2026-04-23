@@ -1,0 +1,7 @@
+                              coef  exp(coef)  se(coef)  coef lower 95%  coef upper 95%  ...  exp(coef) upper 95%  cmp to         z         p  -log2(p)
+covariate                                                                                ...                                                           
+autonomy_level            0.027312   1.027688  0.014524       -0.001154        0.055778  ...             1.057363     0.0  1.880517  0.060038  4.057990
+task_complexity           0.044469   1.045472  0.016766        0.011608        0.077329  ...             1.080398     0.0  2.652309  0.007994  6.966804
+privacy_compliance_score -0.323792   0.723401  0.228032       -0.770727        0.123142  ...             1.131045     0.0 -1.419942  0.155625  2.683858
+
+[3 rows x 11 columns]

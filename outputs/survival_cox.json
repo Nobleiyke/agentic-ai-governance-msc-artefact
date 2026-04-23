@@ -1,0 +1,9 @@
+{
+  "n": 5000,
+  "acc_threshold": 0.6,
+  "hazard_ratios": {
+    "autonomy_level": 1.0276883841645719,
+    "task_complexity": 1.0454722059353798,
+    "privacy_compliance_score": 0.7234005743905054
+  }
+}

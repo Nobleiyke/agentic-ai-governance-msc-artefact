@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            log_latency   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     2.397
+Date:                Wed, 22 Apr 2026   Prob (F-statistic):             0.0258
+Time:                        21:09:54   Log-Likelihood:                -6386.7
+No. Observations:                5000   AIC:                         1.279e+04
+Df Residuals:                    4993   BIC:                         1.283e+04
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+========================================================================================================
+                                           coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------
+Intercept                                6.6284      0.131     50.416      0.000       6.371       6.886
+C(deployment_environment)[T.Desktop]    -0.1130      0.043     -2.623      0.009      -0.197      -0.029
+C(deployment_environment)[T.Edge]       -0.0392      0.042     -0.923      0.356      -0.122       0.044
+C(deployment_environment)[T.Hybrid]      0.0298      0.043      0.699      0.485      -0.054       0.114
+C(deployment_environment)[T.Mobile]     -0.0287      0.042     -0.686      0.493      -0.111       0.053
+C(deployment_environment)[T.Server]     -0.0053      0.042     -0.125      0.901      -0.089       0.078
+privacy_compliance_score                -0.1887      0.151     -1.248      0.212      -0.485       0.108
+==============================================================================
+Omnibus:                      228.625   Durbin-Watson:                   2.001
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               95.439
+Skew:                          -0.049   Prob(JB):                     1.89e-21
+Kurtosis:                       2.330   Cond. No.                         22.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,10 @@
+{
+  "name": "ANOVA accuracy_score by task_category",
+  "n": 5000,
+  "details": {
+    "F": 362.48316612835356,
+    "p": 0.0,
+    "eta_squared": 0.3953236459985243,
+    "categories": 10
+  }
+}

@@ -1,0 +1,52 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           success_rate   R-squared:                       0.958
+Model:                            OLS   Adj. R-squared:                  0.958
+Method:                 Least Squares   F-statistic:                     4218.
+Date:                Wed, 22 Apr 2026   Prob (F-statistic):               0.00
+Time:                        21:09:58   Log-Likelihood:                 10033.
+No. Observations:                5000   AIC:                        -2.001e+04
+Df Residuals:                    4971   BIC:                        -1.982e+04
+Df Model:                          28                                         
+Covariance Type:                  HC3                                         
+================================================================================================================
+                                                   coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------
+Intercept                                        0.3667      0.008     44.417      0.000       0.351       0.383
+human_intervention_required[T.True]             -0.0388      0.002    -21.438      0.000      -0.042      -0.035
+C(task_category)[T.Communication]               -0.0021      0.002     -0.955      0.339      -0.006       0.002
+C(task_category)[T.Creative Writing]            -0.0030      0.002     -1.398      0.162      -0.007       0.001
+C(task_category)[T.Data Analysis]               -0.0055      0.002     -2.606      0.009      -0.010      -0.001
+C(task_category)[T.Decision Making]             -0.0021      0.002     -0.944      0.345      -0.006       0.002
+C(task_category)[T.Learning & Adaptation]        0.0009      0.002      0.405      0.685      -0.003       0.005
+C(task_category)[T.Planning & Scheduling]        0.0003      0.002      0.146      0.884      -0.004       0.005
+C(task_category)[T.Problem Solving]              0.0020      0.002      0.917      0.359      -0.002       0.006
+C(task_category)[T.Research & Summarization]    -0.0004      0.002     -0.175      0.861      -0.005       0.004
+C(task_category)[T.Text Processing]             -0.0022      0.002     -0.990      0.322      -0.006       0.002
+C(deployment_environment)[T.Desktop]             0.0017      0.002      1.062      0.288      -0.001       0.005
+C(deployment_environment)[T.Edge]                0.0017      0.002      1.054      0.292      -0.001       0.005
+C(deployment_environment)[T.Hybrid]              0.0030      0.002      1.831      0.067      -0.000       0.006
+C(deployment_environment)[T.Mobile]              0.0005      0.002      0.304      0.761      -0.003       0.004
+C(deployment_environment)[T.Server]              0.0024      0.002      1.499      0.134      -0.001       0.006
+C(model_architecture)[T.CodeT5+]                -0.0074      0.002     -3.614      0.000      -0.011      -0.003
+C(model_architecture)[T.Falcon-180B]            -0.0158      0.002     -7.785      0.000      -0.020      -0.012
+C(model_architecture)[T.GPT-4o]                  0.0008      0.002      0.403      0.687      -0.003       0.005
+C(model_architecture)[T.Gemini-Pro]             -0.0050      0.002     -2.462      0.014      -0.009      -0.001
+C(model_architecture)[T.InstructGPT]            -0.0041      0.002     -2.003      0.045      -0.008   -8.84e-05
+C(model_architecture)[T.LLaMA-3]                -0.0093      0.002     -4.461      0.000      -0.013      -0.005
+C(model_architecture)[T.Mixtral-8x7B]           -0.0135      0.002     -6.510      0.000      -0.018      -0.009
+C(model_architecture)[T.PaLM-2]                 -0.0089      0.002     -4.446      0.000      -0.013      -0.005
+C(model_architecture)[T.Transformer-XL]         -0.0181      0.002     -9.108      0.000      -0.022      -0.014
+autonomy_level                                  -0.0006      0.000     -1.669      0.095      -0.001    9.94e-05
+task_complexity                                 -0.0265      0.001    -45.683      0.000      -0.028      -0.025
+error_recovery_rate                              0.5661      0.006     96.498      0.000       0.555       0.578
+privacy_compliance_score                         0.0120      0.006      2.081      0.037       0.001       0.023
+==============================================================================
+Omnibus:                       60.145   Durbin-Watson:                   1.992
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               37.191
+Skew:                           0.017   Prob(JB):                     8.39e-09
+Kurtosis:                       2.579   Cond. No.                         231.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

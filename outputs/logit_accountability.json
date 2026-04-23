@@ -1,0 +1,23 @@
+{
+  "name": "Logistic regression: accountability proxy (intervention_required)",
+  "n": 5000,
+  "details": {
+    "n_features_numeric": 19,
+    "n_features_categorical": 6,
+    "cv_auc_mean": 1.0,
+    "cv_auc_std": 0.0,
+    "odds_ratios_key": {
+      "Intercept": 3.599873857531763,
+      "autonomy_level": 0.9883504742917059,
+      "task_complexity": 7.6207673998464305,
+      "accuracy_score": 4.871190005526726e-05,
+      "privacy_compliance_score": 0.4075137048316925
+    },
+    "p_values_key": {
+      "autonomy_level": 0.8232473043093156,
+      "task_complexity": 1.6178748446514258e-41,
+      "accuracy_score": 3.7534018740112005e-10,
+      "privacy_compliance_score": 0.3169632381654621
+    }
+  }
+}
