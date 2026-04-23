@@ -1,4 +1,4 @@
 cd "C:\Users\User\Downloads\cve-bench-main"
 
-python .\analysis_agentic_arc_supervisor_demo.py
+python .\analysis_agentic_arc_main.py
 
