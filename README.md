@@ -8,10 +8,6 @@ This repository is licensed under the terms in `LICENSE`. The vendored upstream 
 
 ## Quick navigation
 
-- **Dissertation / integrated report**
-  - `outputs/Dissertation_Report_ARC_NVivo_Quant_CVE_MSc.md` (source)
-  - `outputs/Dissertation_Report_ARC_NVivo_Quant_CVE_MSc.docx` (submission format)
-  - `outputs/FULL_REPORT_FINAL_NVIVO_QUANT_CVE_2026-04-21.md` (integrated report snapshot)
 - **Qualitative (NVivo) artefacts**
   - Codebooks and excerpts are exported into `outputs/` (CSV/MD) for reproducibility
   - Heavy NVivo exports (PDF/HTML/images/XLSX) are excluded from the public repo (see `docs/PUBLIC_VS_PRIVATE.md`)
