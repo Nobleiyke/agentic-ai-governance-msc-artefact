@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Generated markdown exports (redundant with canonical .md sources)
+CVE_BENCH_*.html
+CVE_BENCH_*.pdf
+CVE_BENCH_*.png
+CVE_BENCH_*.jpeg
+CVE_BENCH_*.jpg
